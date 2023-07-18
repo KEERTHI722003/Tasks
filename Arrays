@@ -1,0 +1,28 @@
+Arrays - 
+Problem Statement:
+
+Write a Java program that performs matrix addition. 
+Given two matrices of the same dimensions, 
+the program should compute the sum of the 
+corresponding elements and 
+store the result in a new matrix.
+Example:
+Consider two matrices:
+```
+Matrix 1:
+1 2 3
+4 5 6
+7 8 9
+
+Matrix 2:
+9 8 7
+6 5 4
+3 2 1
+```
+The program should output:
+```
+Resultant Matrix:
+10 10 10
+10 10 10
+10 10 10
+```
