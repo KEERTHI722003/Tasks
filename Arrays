@@ -31,4 +31,40 @@ Resultant Matrix:
 3.Undo and reado program using stacks
 4.Implement a structure to maintain a database of 20 students-name,id and marks using array
 Display all the programs
+public static void main(String[] args){
+Scanner sc=new Scanner(System.in);
+for(int i=1;i<4;i++){
+for(int j=1;j<4;j++){
+int A[i][j]=sc.nextint();
+}
+}
+for(int i=1;i<4;i++){
+for(int j=1;j<4;j++){
+int B[i][j]=B.nextint();
+}
+}
+for(int i=1;i<4;i++){
+for(int j=1;j<4;j++){
+int C[i][j]=0;
+C[i][j]=C[i][j]+A[i][j]+B[i][j];
+}
+}
+*****************************************************************************************************************************************************
+class Student{
+public String Name;
+public int ID;
+public int marks;
+public static Student(String name,int id,int marks){
+System.out.println(name + id + marks)
+}
+}
+public static void main(String[] args){
+Student S1 = new Student("keerthi",1,90);
+Student S2 = new Student("Keerthana",2,98);
+Student S3 = new Student("Prasanna",3,99);
+Student S4 = new Student("Hari",4,100);
+Student S5 = new Student("aruna",5,88);
+
+
+
 
